@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Screen6">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:ignore="ExtraText,UseCompoundDrawables">
+
+            <!-- scrollable content goes here -->
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="133dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="16dp"
+                android:contentDescription="@string/logo"
+                app:layout_constraintBottom_toTopOf="@+id/imageView4"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.023"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.39"
+                app:srcCompat="@drawable/logo2" />
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="@string/title"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="173dp"
+                tools:layout_editor_absoluteY="38dp" />
+
+            <TextView
+                android:id="@+id/moko"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Treatment for MOko Disease"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="25dp"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText"
+                 />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="224dp"
+                android:layout_height="224dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/moko"
+                android:contentDescription="TODO"
+                tools:ignore="ContentDescription,HardcodedText" />
+
+            <TextView
+                android:id="@+id/moko1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="15dp"
+                android:textSize="14sp"
+                android:text="@string/remove_infected_plants" />
+
+            <TextView
+                android:id="@+id/mokodes1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="15dp"
+                android:textSize="14sp"
+                android:text="@string/mokodes1" />
+
+            <TextView
+                android:id="@+id/moko2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="15dp"
+                android:textSize="14sp"
+                android:text="@string/quarantine_measures" />
+
+            <TextView
+                android:id="@+id/mokodes2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="15dp"
+                android:textSize="14sp"
+                android:text="@string/mokodes2" />
+
+            <TextView
+                android:id="@+id/moko3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="15dp"
+                android:textSize="14sp"
+                android:text="@string/disinfection" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="15dp"
+                android:textSize="14sp"
+                android:text="@string/mokodes3"
+                tools:ignore="VisualLintLongText" />
+
+            <TextView
+                android:id="@+id/moko4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="15dp"
+                android:textSize="14sp"
+                android:text="@string/resistant_varieties" />
+
+            <TextView
+                android:id="@+id/mokodes4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="15dp"
+                android:textSize="14sp"
+                android:text="@string/mokodes4" />
+
+            <TextView
+                android:id="@+id/moko5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="15dp"
+                android:textSize="14sp"
+                android:text="@string/copper_based_sprays" />
+
+            <TextView
+                android:id="@+id/mokodes5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="15dp"
+                android:textSize="14sp"
+                android:text="@string/mokodes5" />
+
+            <TextView
+                android:id="@+id/moko6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="15dp"
+                android:textSize="14sp"
+                android:text="@string/biological_control" />
+
+            <TextView
+                android:id="@+id/mokodes6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="30dp"
+                android:textSize="14sp"
+                android:text="@string/mokodes6"
+                tools:ignore="VisualLintLongText" />
+
+
+            <!-- Add more views as needed -->
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
